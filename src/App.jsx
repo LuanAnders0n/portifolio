@@ -13,7 +13,7 @@ import './App.css'
 function App() {
 
   return (
-    <div>
+    <div className='header'>
           <h2>PORTIFOLIO</h2>
     <div className="body">
       <div className="line">
@@ -30,6 +30,9 @@ function App() {
       <img className='icon4' src={Lamp} alt="" />
       <img className='icon5' src={Movie} alt="" />
       </div>
+      <div>
+      <div className='line1'></div>
+      </div>
       <div className='body2'>
         <p>
         <h4>UM POUCO SOBRE MIM</h4>
@@ -38,6 +41,15 @@ Em um certo momento, quando estava cursando o ensino médio, decidi ingressar no
 Depois do ensino médio continuei meus estudos e depois ingressei na faculdade de Análise e Desenvolvimento de Sistemas na Faculdade de São Vicente - Anhanguera.
 Busco sempre aprimorar meus conhecimentos e me manter antenado com as novidades, por isso gosto de testar e desenvolver diversas tecnologias.</p>
         <img className='pc' src={Pc} alt="" />
+      </div>
+      <div className='skills'>
+        <div className='square1'>
+          <h5>HARD SKILLS</h5>
+        </div>
+        <div className='square2'>
+        <h5>SOFT SKILL</h5>
+
+        </div>
       </div>
       </div>
       
