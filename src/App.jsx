@@ -34,12 +34,13 @@ function App() {
       <div className='line1'></div>
       </div>
       <div className='body2'>
-        <p className='p'>
+      <p className='p'>
         <h4>UM POUCO SOBRE MIM</h4>
 Sempre utilizei o computador de um modo geral para lazer, pesquisas, trabalhos escolares, explorando a internet de forma descompromissada, porém, ao mesmo tempo, foi inevitável a curiosidade para aprender mais sobre esse universo, que foi acontecendo aos poucos.
 Em um certo momento, quando estava cursando o ensino médio, decidi ingressar no curso game design, onde aprendi vários fundamentos sobre criação de jogos, uma delas era a programação, onde descobri um de desenvolvimento que fiquei fascinado. 
 Depois do ensino médio continuei meus estudos e depois ingressei na faculdade de Análise e Desenvolvimento de Sistemas na Faculdade de São Vicente - Anhanguera.
-Busco sempre aprimorar meus conhecimentos e me manter antenado com as novidades, por isso gosto de testar e desenvolver diversas tecnologias.</p>
+Busco sempre aprimorar meus conhecimentos e me manter antenado com as novidades, por isso gosto de testar e desenvolver diversas tecnologias.
+</p>
         <img className='pc' src={Pc} alt="" />
       </div>
       <div className='skills'>
